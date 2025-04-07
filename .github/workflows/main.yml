@@ -1,4 +1,4 @@
-name: Mobile Test Automation - Booking App - ${{ github.event.inputs.suite }}
+name: Mobile Test Automation - Booking App
 
 on:
   workflow_dispatch:
