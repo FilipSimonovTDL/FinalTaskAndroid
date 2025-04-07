@@ -31,8 +31,9 @@ public class SignUpPopUp extends Helpers {
 
     @Step("Closing Sign up PopUp")
     public void closePopUp(){
-        pressOutsideSlider(driver,slider); // More consistent
-      //  swipeDownElementByCoordinates(driver, slider); one solution
+        driver.navigate().back();
+        // pressOutsideSlider(driver,slider); More consistent even though the device bugs on for some reason
+      //  swipeDownElementByCoordinates(driver, slider); one solution. device bugs out
     }
 
 }
