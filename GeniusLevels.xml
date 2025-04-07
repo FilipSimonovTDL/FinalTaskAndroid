@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Genius Levels Suite">
+    <test verbose="2" name="Genius levels tests">
+        <classes>
+            <class name="tests.BookingAppTests">
+                <methods>
+                    <include name="checkGeniusLevels"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
