@@ -6,7 +6,7 @@
         <classes>
             <class name="tests.BookingAppTests">
                 <methods>
-                    <include name="Search and Favorites Test"/>
+                    <include name="searchAndAddToFavoritesTest"/>
                 </methods>
             </class>
         </classes>
